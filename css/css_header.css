@@ -1,0 +1,152 @@
+/* CSS for header */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.collapse.navbar-collapse {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.row.top {
+  padding: 10px;
+}
+
+.row.top span {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #FFF1E9; /* Warna navbar */
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #fff; /* Warna teks logo */
+}
+
+.navbar-nav > li > a {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff; /* Warna teks menu */
+}
+
+.navbar-nav li.hovered > a::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ff8680; /* Warna garis bawah saat dihover */
+  transform: scaleX(0); /* Awalnya tidak terlihat */
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-nav li.hovered > a:hover::after{
+  transform: scaleX(1); /* Munculkan garis bawah saat dihover */
+
+}
+
+.dropdown-menu > li > a {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  color: #555;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #ff8680 !important;
+}
+
+.dropdown-menu > li > a:hover i,
+.dropdown-menu > li > a:focus i {
+  color: #ff8680;
+}
+
+.dropdown-menu > li > a i {
+  margin-right: 5px;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #555;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav > li > a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+}
+
+.navbar-default .navbar-brand {
+  color: #ff8680;
+}
+
+.navbar-brand img {
+  width: 100px;
+  margin-left: 5px;
+  margin-top: -10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #555;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ff8680 !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ff8680;
+}
+
+.navbar-default .dropdown-menu > li > a {
+  color: #45454D;
+}
+
+.navbar-default .dropdown-menu > li > a:hover,
+.navbar-default .dropdown-menu > li > a:focus {
+  background-color: #f5f5f5;
+  color: #ff8680 !important;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #ff8680;
+}
+
+.navbar-brand .navbar-logo {
+  width: 100px; /* Sesuaikan ukuran logo */
+}
+
+.navbar-brand b {
+  margin: 0;
+}

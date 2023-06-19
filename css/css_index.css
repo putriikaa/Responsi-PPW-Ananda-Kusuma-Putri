@@ -1,0 +1,129 @@
+/* Reset default styles */
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+/* Background styles */
+.background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('/img/backg.jpg');
+	background-size: cover;
+	z-index: -1;
+}
+.index-title {
+    width: 100%;
+    border-bottom: 3px solid #ff8680;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .image-box {
+    flex: 1;
+  }
+  
+  .image-box img {
+	max-width: 100%;
+	height: 300px; /* Ganti nilai tinggi sesuai kebutuhan */
+  }
+  
+  .info-box {
+    background-color: #ffbfdc;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .info-icon {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .info-icon i {
+    margin-right: 5px;
+  }
+  
+  .info-text {
+    margin-left: 10px;
+  }
+  
+  .info-box p {
+    margin-top: 10px;
+  }
+  
+  .info-box:hover {
+    background-color: #ffbfdc;
+  }
+  
+  @media (max-width: 991px) {
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .col-md-6.col-lg-3:nth-child(even) {
+      order: 3;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .col-md-6,
+    .col-lg-3 {
+      width: 100%;
+    }
+  
+    .info-box {
+      order: 2;
+    }
+  }
+  .booking-form{
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+
+  .booking-form h2 {
+	text-align: center;
+  }
+
+  .booking-form form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+
+  .booking-form.form-group{
+	margin-bottom: 10px;
+  }
+
+  .booking-form.form-grouplabel {
+	display: block;
+	margin-bottom: 5px;
+  }
+
+  .booking-form.form-groupinput,
+  .booking-form.form-groupselect {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+
+  .booking-formbutton {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background-color: #007bff;
+	color: #fff;
+	cursor: pointer;
+  }
