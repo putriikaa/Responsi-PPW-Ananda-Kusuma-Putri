@@ -173,7 +173,8 @@
       <div class="testimonial-item">
         <img src="img/testi2.jpg" alt="Customer 2">
         <p class="testimonial-text">"The hotel exceeded my expectations. The amenities were top-notch, the service was exceptional, and the views from the room were breathtaking. I can't wait to stay here again on my next trip."</p>
-        <p class="customer-name">- Jane Smith</p>
+        <p class="custome
+        r-name">- Jane Smith</p>
       </div>
       <div class="testimonial-item">
         <img src="img/testi1.jpg" alt="Customer 1">

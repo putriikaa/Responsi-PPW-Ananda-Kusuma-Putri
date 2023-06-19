@@ -55,7 +55,11 @@ if(isset($_SESSION['kd_cs'])){
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">ROOM <span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li><a href="family-room.php">Family Room</a></li>
+                <li><a href="suite-room.php">Suite Room</a></li>
+                <li><a href="executive-room.php">Executive Room</a></li>
+                <li><a href="standart-room.php">Standart Room</a></li>
                 <li><a href="deluxe-room.php">Deluxe Room</a></li>
+                <li><a href="presidential-room.php">Presidential Room</a></li>
             </ul>
         </li>
         <li><a href="about.php">ABOUT</a></li>

@@ -147,7 +147,7 @@ $conn = mysqli_connect("localhost", "root", "", "hotelbaru");
 <br>
 
 
-<h3 class="index-title"><b>Kategori Kamar</b></h3>
+<h3 class="index-title"><b>Room Categories</b></h3>
 <div class="row">
     <?php 
     $result = mysqli_query($conn, "SELECT room_type, description FROM categories");
